@@ -1,0 +1,11 @@
+Model Information:
+* title:	DAE - RustAirborn
+* source:	https://sketchfab.com/3d-models/dae-rustairborn-d656539ea2da4956a0e1754e27b98a62
+* author:	Magnus Tellmann (https://sketchfab.com/magtell)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "DAE - RustAirborn" (https://sketchfab.com/3d-models/dae-rustairborn-d656539ea2da4956a0e1754e27b98a62) by Magnus Tellmann (https://sketchfab.com/magtell) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

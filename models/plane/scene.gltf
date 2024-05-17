@@ -1,0 +1,361 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 4776,
+      "max": [
+        9.5814208984375,
+        13.938724517822266,
+        4.706039905548096
+      ],
+      "min": [
+        -7.452982425689697,
+        4.76837158203125e-07,
+        -7.360238075256348
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 57312,
+      "componentType": 5126,
+      "count": 4776,
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 4776,
+      "max": [
+        2.9941792488098145,
+        0.9982156753540039
+      ],
+      "min": [
+        0.002411477267742157,
+        0.0011978007387369871
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 15720,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 114624,
+      "componentType": 5126,
+      "count": 380,
+      "max": [
+        7.4512176513671875,
+        12.681528091430664,
+        3.7303802967071533
+      ],
+      "min": [
+        -5.623569488525391,
+        3.4750523567199707,
+        -5.861817359924316
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 119184,
+      "componentType": 5126,
+      "count": 380,
+      "max": [
+        0.9178187251091003,
+        0.9113375544548035,
+        0.9267974495887756
+      ],
+      "min": [
+        -0.9178223609924316,
+        -0.9113421440124512,
+        -0.9267838001251221
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 38208,
+      "componentType": 5126,
+      "count": 380,
+      "max": [
+        2.997382640838623,
+        0.995406448841095
+      ],
+      "min": [
+        0.7440096139907837,
+        0.003944020718336105
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 62880,
+      "componentType": 5125,
+      "count": 1248,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Magnus Tellmann (https://sketchfab.com/magtell)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/dae-rustairborn-d656539ea2da4956a0e1754e27b98a62",
+      "title": "DAE - RustAirborn"
+    },
+    "generator": "Sketchfab-16.7.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 67872,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 41248,
+      "byteOffset": 67872,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 123744,
+      "byteOffset": 109120,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 232864,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_specular"
+  ],
+  "images": [
+    {
+      "uri": "textures/RustAirborn_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/RustAirborn_metallicRoughness.png"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "extensions": {
+        "KHR_materials_specular": {
+          "specularColorFactor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "specularFactor": 0.0
+        }
+      },
+      "name": "RustAirborn",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Wing_Top.002_RustAirborn_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "Wing_Top.004_RustAirborn_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 5,
+            "POSITION": 4,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.009999999776482582,
+        0.0,
+        0.0,
+        -0.009999999776482582,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "79b04863877144dd832b265ea4a9b997.fbx"
+    },
+    {
+      "children": [
+        3,
+        5
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        86.60256190244509,
+        49.99996271931772,
+        -2.1816795481299778e-06,
+        -0.0,
+        6.256637527513043e-06,
+        -1.5200187197805803e-05,
+        -99.99999999999865,
+        -0.0,
+        49.99996271931738,
+        -86.60256190244378,
+        1.6292067961387602e-05,
+        -0.0,
+        0.0012755393981933594,
+        -12.832106590270996,
+        393.1966857910156,
+        1.0
+      ],
+      "name": "Wing_Top.002"
+    },
+    {
+      "mesh": 0,
+      "name": "Wing_Top.002_RustAirborn_0"
+    },
+    {
+      "children": [
+        6
+      ],
+      "matrix": [
+        86.60256190244509,
+        49.99996271931772,
+        -2.1816795481299778e-06,
+        -0.0,
+        6.256637527513043e-06,
+        -1.5200187197805803e-05,
+        -99.99999999999865,
+        -0.0,
+        49.99996271931738,
+        -86.60256190244378,
+        1.6292067961387602e-05,
+        -0.0,
+        0.0012755393981933594,
+        -12.832106590270996,
+        393.1966857910156,
+        1.0
+      ],
+      "name": "Wing_Top.004"
+    },
+    {
+      "mesh": 1,
+      "name": "Wing_Top.004_RustAirborn_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}

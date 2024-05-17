@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+
+    <script src="controls.js"></script>
+
+  </head>
+
+  <body>
+    <a-scene background="color:#026F90">
+
+      <!--Asset Management-->
+      <a-assets timeout="10000">        
+        <a-asset-item
+          id="terrainMap"
+          src="./models/terrain/scene.gltf"
+        ></a-asset-item>
+
+        <a-asset-item
+          id="plane"
+          src="./models/plane/scene.gltf"
+        ></a-asset-item>
+      </a-assets>
+
+      
+
+      <!-- Terrain  -->
+      <a-entity
+        id="terrain"
+        gltf-model="#terrainMap"
+        position="0 -1000 0"
+        rotation="0 0 0"
+        scale="1.4 1.4 1.4"
+        terrain-rotation-reader
+      >
+      </a-entity>
+      <a-entity id="look" look-controls camera position="0 2 20" rotation="180 0 0" 
+      animation="property: position; to: 0 0 -1000;easing:linear; loop: true; dur: 150000"></a-entity>
+      <a-entity
+        id="flight1"
+        gltf-model="#plane"
+        position="0 -3 -3"
+        scale="1 1 1"
+        rotation="0 180 0"
+        flight-animations
+        animation="property: position; to: 0 0 -1000;easing:linear; loop: true; dur: 150000"
+        control>
+  
+      </a-entity>
+      <a-plane id="left" src="controls/left.png" material="transparent:true" position="-25 -20 0"></a-plane>
+      <a-plane id="right" src="controls/right.png" material="transparent:true"  position="-23 -20 0"></a-plane>
+      <a-plane id="up" src="controls/up.png" material="transparent:true" position="24 -19 0"></a-plane>
+      <a-plane id="down" src="controls/down.png" material="transparent:true" position="24 -21 0"></a-plane>
+    </a-scene>
+  </body>
+</html>
